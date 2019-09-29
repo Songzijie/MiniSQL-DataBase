@@ -7,7 +7,7 @@
     |_|  |_|_|_| |_|_|____/ \__\_\_____|  
 
 ## Description
-This is a MiniSql engine powered by c++, DBMS homework.
+This is a MiniSql engine powered by c++, DBMS Project.
 
 ## Author
 Zijie Song
