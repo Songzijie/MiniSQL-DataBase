@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 int main() {
     BufferManager &bufferManager = BufferManager::GetInstance();
 
