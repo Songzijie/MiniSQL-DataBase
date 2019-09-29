@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.7)
+project(MiniSQL)
+
+set(CMAKE_CXX_STANDARD 11)
+include_directories(include)
+
+set(SOURCE_FILES
+        include/API.h
+        include/BufferManager.h
+        include/CatalogManager.h
+        include/IndexManager.h
+        include/StmtAfterParse.h
+        include/Interpreter.h
+        include/definitions.h
+        include/RecordManager.h
+        include/Index.h
+        BufferManager.cpp
+        #        CatalogManager.cpp
+        #        IndexManager.cpp
+        #                Index.cpp
+        test/test.cpp
+        #        main.cpp
+        )
+
+add_executable(MiniSQL ${SOURCE_FILES})

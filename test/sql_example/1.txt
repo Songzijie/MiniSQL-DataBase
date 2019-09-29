@@ -1,0 +1,17 @@
+drop table student2;
+create table student2 (
+ id int,
+ name char(12) unique,
+ score float,
+ primary key(id) 
+);
+exec instruction0.txt;
+exec instruction1.txt;
+exec instruction2.txt;
+exec instruction3.txt;
+exec instruction4.txt;
+exec instruction5.txt;
+exec instruction6.txt;
+exec instruction7.txt;
+exec instruction8.txt;
+exec instruction9.txt;
